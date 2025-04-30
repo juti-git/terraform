@@ -1,3 +1,4 @@
-resource "random_pet" "name" {
-  
+resource "random_pet" "cat" {
+ prefix = "first"
+ length = 3
 }
